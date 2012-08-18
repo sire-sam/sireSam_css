@@ -1,4 +1,4 @@
-High Productive CSS regroupe un enssemble de feuilles de styles mise à jours au fur et à mesure 
+High Productive CSS regroupe un ensemble de feuilles de styles mise à jours au fur et à mesure 
 de mes propres recherches.
 
 L'objectif est de rassembler l'ensemble des cas rencontrés, lors de mes différentes conceptions 
