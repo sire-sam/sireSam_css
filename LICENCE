@@ -1,12 +1,11 @@
 # -- BEGIN LICENSE BLOCK ----------------------------------
 #
-# This file is part of Graphic Rules CSS.
-# Css framework with the aim to transpose the rules
-# of layout of the paper industry in a list of CSS rules with high semantic value
+# This file is part of High Productive CSS.
+# Css framework to improve layout building in a list of CSS rules with high semantic value
 #
 # Copyright (C) 2012  Lesire Samuel <samuel.lesire@gmail.com>
 #
-# OFFICIAL TEAM Graphic Rules CSS :
+# OFFICIAL TEAM High Productive CSS :
 #
 #   * Lesire Samuel (Author - Designer) <samuel.lesire@gmail.com>
 #
@@ -32,8 +31,8 @@
 #
 # DISCLAIMER
 
-# Do not edit or add to this file if you wish to upgrade Graphic Rules CSS to newer
-# versions in the future. If you wish to customize Graphic Rules CSS for your
+# Do not edit or add to this file if you wish to upgrade High Productive CSS to newer
+# versions in the future. If you wish to customize High Productive CSS for your
 # needs please refer to http://www.sire-sam.be/ for more information.
 #
 # -- END LICENSE BLOCK -----------------------------------
