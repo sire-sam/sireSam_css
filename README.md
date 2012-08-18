@@ -1,7 +1,7 @@
 High Productive CSS regroupe un enssemble de feuilles de styles mise à jours au fur et à mesure 
 de mes propres recherches.
 
-L'objectif est de rassembler l'enssemble des cas rencontrés, lors de mes différentes conceptions 
+L'objectif est de rassembler l'ensemble des cas rencontrés, lors de mes différentes conceptions 
 de sites internet, afin de gagner en productivité et d'établir une base saine et riche pour
 de nouveaux projets.
 
