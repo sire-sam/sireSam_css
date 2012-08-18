@@ -631,8 +631,13 @@ to attach them to the start of each source file to most effectively
 state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
-    Magix CMS, a CMS optimized for SEO
-    MAGIX CMS Copyright (c) 2008 - 2012  Gerits Aurelien <aurelien[at]magix-cms[point]com>, <gerits.aurelien[at]gmail[point]com>
+    This file is part of High Productive CSS.
+    Css framework to improve layout building in a list of CSS rules with high semantic value
+    Copyright (C) 2012 Lesire Samuel <samuel.lesire@gmail.com>
+    
+    OFFICIAL TEAM High Productive CSS :
+    Lesire Samuel (Author - Designer) <samuel.lesire@gmail.com>
+
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
