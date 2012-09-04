@@ -43,6 +43,11 @@
 	margin: 0 20px 20px 0;
 }
 
+.block.center {
+        marin-right: auto;
+        margin-left: auto;
+}
+
 .bg-dark,
 .bg-light {
     padding: 10px;
