@@ -73,6 +73,10 @@ img.lfloat,
     min-height: 20px;
 }
 
+.clear-this {
+    overflow-hidden;
+}
+
 .lclear {
     clear:left;
 }
