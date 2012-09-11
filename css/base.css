@@ -195,6 +195,7 @@ hr {
 
 ul {
     margin: 0 40px 20px 40px;
+    padding: 0;
     list-style: none;
 }
 
