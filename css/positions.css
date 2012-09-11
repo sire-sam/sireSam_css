@@ -79,7 +79,7 @@ img.lfloat,
 }
 
 .clear-flow {
-    overflow-hidden;
+    overflow: hidden;
 }
 
 .lclear {
