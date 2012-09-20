@@ -43,6 +43,11 @@
 	margin: 0 20px 20px 0;
 }
 
+.block.center {
+        margin-right: auto;
+        margin-left: auto;
+}
+
 .bg-dark,
 .bg-light {
     padding: 10px;
@@ -71,6 +76,10 @@ img.lfloat,
     margin:0;
     padding:0;
     min-height: 20px;
+}
+
+.clear-flow {
+    overflow: hidden;
 }
 
 .lclear {

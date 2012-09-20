@@ -36,6 +36,7 @@ table {
     border-width: 1px;
     border-collapse: collapse;
     border-spacing: 0;
+    table-layout: fixed;
 }
 
 tr,
@@ -164,6 +165,7 @@ hr {
 
 ul {
     margin: 0 40px 20px 40px;
+    padding: 0;
     list-style: none;
 }
 
