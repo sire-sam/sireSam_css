@@ -1,20 +1,40 @@
 /* ------------------------------- */
+/* = ABOUT                         */
 /* -------------------------------
 
+    @name: High Productive CSS
+    @author : Samuel Lesire
+    @date : Aout 2012
+    @version: 0.1
+    @todo : Retester toutes les modifs avec IE7 & friends
+    @note: Feuille regroupant un maximum de balises pour assurer en rendu similaire sur différents navigateurs
 
 /* = Graphic values
 
 _Color Code_
+Dark Green      :       #009132        / Contest : H1 > h6, hr, fieldset
+Light Greeen    :       #00a539        / Contest : a, legend
+Grey            :       #58595B         / Contest : All others texts
 
 _Font Family_
+Global          :       "Arial", Helvetica, sans-serif
+H1 -> 6         :       "Georgia", Times, sans-serif
 
 */
 /* ------------------------------- */
+/* = Summary                       */
 /* -------------------------------
 
+  =1 - Table Tags
+  =2 - Embedded content Tags @todo étendre à plus de balises
+  =3 - Text-level semantic Tags
+  =4 - Grouping content Tags
+  =5 - Section Tags
+  =6 - Forms Tags
 */
 
 html {
+	width: 100%;
 }
 
 body {
@@ -22,12 +42,14 @@ body {
     padding: 0;
     font-family: "Arial", Helvetica, sans-serif;
     font-size: 14px;
+	text-align: left;
     line-height: 20px;
     color: #58595B;
     background: #FFFFFF;
 }
 
 /* ------------------------------- */
+/* =1 Table Tags                    */
 /* ------------------------------- */
 table {
     margin-bottom: 16px;
@@ -61,8 +83,13 @@ tbody td {
     border-left: 1px dashed #CCCCCC;
 }
 
+    tr > td:first-child,
+    tr > th:first-child {
+        border-left: 0;
+    }
 
 /* ------------------------------- */
+/* =2 Embedded content Tags         */
 /* ------------------------------- */
 img {
     margin: 0;
@@ -71,12 +98,14 @@ img {
     background-color: transparent;
 }
 
+a  > img,
 figure > img {
     display: block;
     border:none;
 }
 
 /* ------------------------------- */
+/* =3 Text-level semantic Tags      */
 /* ------------------------------- */
 em {
     font-style: italic;
@@ -127,6 +156,7 @@ a:active {
 }
 
 /* ------------------------------- */
+/* =4 Grouping content Tags         */
 /* ------------------------------- */
 p,
 pre,
@@ -183,6 +213,12 @@ dt {
     background-color: transparent;
 }
 
+    ul > li {
+        padding-left: 20px;
+        background-image: url(../img/li-bg.png);
+        background-repeat: no-repeat;
+        background-position: left 4px;
+    }
 
 dt {
     font-weight: bold;
@@ -205,6 +241,7 @@ div {
 }
 
 /* ------------------------------- */
+/* =5 Section Tags                  */
 /* ------------------------------- */
 section,
 nav,
@@ -246,15 +283,21 @@ h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hov
 }
 
 h1 {
+	font-size: 36px;
+    line-height:  40px;
     padding-bottom: 20px;
 }
 
 h2 {
+	font-size: 30px;
     line-height: 40px;
 }
+  
 h3 {
+	font-size: 18px;
     line-height: 20px;
 }
+  
 h4 {
     font-size: 16px;
     line-height: 20px;
@@ -268,11 +311,14 @@ h5 {
 h6 {
     font-size: 14px;
     line-height: 20px;
+ }
 
 
 /* ------------------------------- */
+/* =6 Forms Tags                    */
 /* ------------------------------- */
 /** @todo continuer pour les autres éléments de formulaire
+ **/
 form {
     margin: 0;
     padding: 0;
@@ -313,6 +359,9 @@ button {
     cursor: pointer;
 }
 
+    input[type="submit"]:hover {
+        background: #58595B;
+    }
 
 select {
     margin: 0 0 15px 0;
@@ -323,7 +372,14 @@ select {
     background: transparent;
 }
 
+    option {
+        font-size: 14px;
+        background: transparent;
+    }
 
+    optgroup {
+        padding: 3px;
+    }
 
 textarea {
     margin: 0 0 10px 0;
