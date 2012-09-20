@@ -12,9 +12,7 @@
 /* = Graphic values
 
 _Color Code_
-Dark Green      :       #009132        / Contest : H1 > h6, hr, fieldset
-Light Greeen    :       #00a539        / Contest : a, legend
-Grey            :       #58595B         / Contest : All others texts
+Dark Grey         :       #4C4C4C        /  body{color, }H1 > h6{color}, hr{background}, fieldset{border}, a{color}, legend{color}
 
 _Font Family_
 Global          :       "Arial", Helvetica, sans-serif
@@ -34,7 +32,7 @@ H1 -> 6         :       "Georgia", Times, sans-serif
 */
 
 html {
-	width: 100%;
+    width: 100%;
 }
 
 body {
@@ -42,9 +40,9 @@ body {
     padding: 0;
     font-family: "Arial", Helvetica, sans-serif;
     font-size: 14px;
-	text-align: left;
+    text-align: left;
     line-height: 20px;
-    color: #58595B;
+    color: #4C4C4C;
     background: #FFFFFF;
 }
 
@@ -53,7 +51,7 @@ body {
 /* ------------------------------- */
 table {
     margin-bottom: 16px;
-    border-color: #CCCCCC;
+    border-color: #4C4C4C;
     border-style: solid;
     border-width: 1px;
     border-collapse: collapse;
@@ -68,25 +66,25 @@ th {
 
 thead th {
     padding: 10px 10px 9px 10px;
-    border-bottom: 1px solid #CCCCCC;
+    border-bottom: 1px solid #4C4C4C;
     font-weight: bold;
 }
 
 tfoot td{
     padding: 9px 10px 10px 10px;
-    border-top: 1px solid #CCCCCC;
+    border-top: 1px solid #4C4C4C;
     font-weight: bold;
 }
 
 tbody td {
     padding: 10px;
-    border-left: 1px dashed #CCCCCC;
+    border-left: 1px dashed #4C4C4C;
 }
 
-    tr > td:first-child,
-    tr > th:first-child {
-        border-left: 0;
-    }
+tr > td:first-child,
+tr > th:first-child {
+    border-left: 0;
+}
 
 /* ------------------------------- */
 /* =2 Embedded content Tags         */
@@ -135,16 +133,16 @@ a {
     padding: 0;
     font-size: inherit;
     text-decoration: underline;
-    color: #00a539;
+    color: #4C4C4C;
     background-color: transparent;
 }
 
 a:link {
-    color: #00a539;
+    color: #4C4C4C;
 }
 
 a:visited {
-    color: #00a539;
+    color: #4C4C4C;
 }
 
 a:hover {
@@ -152,7 +150,7 @@ a:hover {
 }
 
 a:active {
-    color: #58595B;
+    color: #4C4C4C;
 }
 
 /* ------------------------------- */
@@ -190,7 +188,7 @@ hr {
     height: 1px;
     line-height: 0;
     border: 0;
-    background-color: #00a539;
+    background-color: #4C4C4C;
 }
 
 ul {
@@ -213,12 +211,12 @@ dt {
     background-color: transparent;
 }
 
-    ul > li {
-        padding-left: 20px;
-        background-image: url(../img/li-bg.png);
-        background-repeat: no-repeat;
-        background-position: left 4px;
-    }
+ul > li {
+    padding-left: 20px;
+    background-image: url(../img/li-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 4px;
+}
 
 dt {
     font-weight: bold;
@@ -268,36 +266,36 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     letter-spacing: 0.01em;
     word-spacing: 0.1pc;
-    color: #009132;
+    color: #4C4C4C;
 }
 
 h1 > a:link, h2 > a:link, h3 > a:link, h4 > a:link, h5 > a:link, h6 > a:link,
 h1 > a:visited, h2 > a:visited, h3 > a:visited, h4 > a:visited, h5 > a:visited, h6 > a:visited {
     text-decoration: none;
-    color: #009132;
+    color: #4C4C4C;
 }
 
 h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hover {
     text-decoration: underline;
-    color: #009132;
+    color: #4C4C4C;
 }
 
 h1 {
-	font-size: 36px;
+    font-size: 36px;
     line-height:  40px;
     padding-bottom: 20px;
 }
 
 h2 {
-	font-size: 30px;
+    font-size: 30px;
     line-height: 40px;
 }
-  
+
 h3 {
-	font-size: 18px;
+    font-size: 18px;
     line-height: 20px;
 }
-  
+
 h4 {
     font-size: 16px;
     line-height: 20px;
@@ -311,7 +309,7 @@ h5 {
 h6 {
     font-size: 14px;
     line-height: 20px;
- }
+}
 
 
 /* ------------------------------- */
@@ -339,7 +337,7 @@ label {
 input:not([type="submit"]) {
     margin: 0 0 10px 0;
     padding: 5px 10px;
-    border: 1px solid #009132;
+    border: 1px solid #4C4C4C;
     font-size: 14px;
     height: 20px;
     background-color: transparent;
@@ -353,47 +351,47 @@ button {
     border: 0;
     font-size: 14px;
     height: 40px;
-    background-color: #00a539;
+    background-color: #4C4C4C;
     color: #FFF;
     font-weight: bold;
     cursor: pointer;
 }
 
-    input[type="submit"]:hover {
-        background: #58595B;
-    }
+input[type="submit"]:hover {
+    background: #4C4C4C;
+}
 
 select {
     margin: 0 0 15px 0;
-    border: 1px solid #009132;
+    border: 1px solid #4C4C4C;
     border-radius: 0;
     font-size: 14px;
     height: 25px;
     background: transparent;
 }
 
-    option {
-        font-size: 14px;
-        background: transparent;
-    }
+option {
+    font-size: 14px;
+    background: transparent;
+}
 
-    optgroup {
-        padding: 3px;
-    }
+optgroup {
+    padding: 3px;
+}
 
 textarea {
     margin: 0 0 10px 0;
     padding: 5px 10px;
-    border: 1px solid #009132;
+    border: 1px solid #4C4C4C;
     font-size: 14px;
 }
 
 fieldset {
-    border: 1px solid #009132;
+    border: 1px solid #4C4C4C;
     padding: 20px;
     margin: 0;
 }
 
 legend {
-    color: #00a539;
+    color: #4C4C4C;
 }
