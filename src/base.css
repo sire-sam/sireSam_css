@@ -10,13 +10,16 @@
     @note: Feuille regroupant un maximum de balises pour assurer en rendu similaire sur différents navigateurs
 
 /* = Graphic values
-
 _Color Code_
 Dark Grey         :       #4C4C4C        /  body{color, }H1 > h6{color}, hr{background}, fieldset{border}, a{color}, legend{color}
 
 _Font Family_
 Global          :       "Arial", Helvetica, sans-serif
 H1 -> 6         :       "Georgia", Times, sans-serif
+pre, code       ;       "Courier New", Courier, monospace;
+
+_TEXT_
+line-height     :        20px           / #TODO vérifier si l'héritage de body n'est pas suffisant (actuellement placer syur de nombreux TAG)
 
 */
 /* ------------------------------- */
