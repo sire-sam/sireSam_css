@@ -60,6 +60,7 @@ None
         }
 
         .h-nav > li.current > a,
+        .h-nav > li:hover > a,
         .h-nav > li > a:hover {
             background-color: #4C4C4C;
             color: #F5F5F5;
