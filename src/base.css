@@ -337,7 +337,7 @@ label {
     background-color: transparent;
 }
 
-input:not([type="submit"]) {
+input:not([type="submit"]):not([type="file"]) {
     margin: 0 0 10px 0;
     padding: 5px 10px;
     border: 1px solid #4C4C4C;
