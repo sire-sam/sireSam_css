@@ -4,12 +4,13 @@
 
     @name: High Productive CSS
     @author : Samuel Lesire
-    @date : Aout 2012
+    @date : 09-2012
     @version: 0.1
     @todo : Retester toutes les modifs avec IE7 & friends
     @note: Feuille regroupant un maximum de balises pour assurer en rendu similaire sur différents navigateurs
 
 /* = Graphic values
+
 _Color Code_
 Dark Grey         :       #4C4C4C        /  body{color, }H1 > h6{color}, hr{background}, fieldset{border}, a{color}, legend{color}
 
