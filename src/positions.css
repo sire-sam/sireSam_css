@@ -235,6 +235,7 @@ img.lfloat,
 	display: block;
 	float: left;
 	margin: 0 20px 20px 0;
+    padding: 0;
 }
 
 /* w12-16 normal 783px   bg 723 */
