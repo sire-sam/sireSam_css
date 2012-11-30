@@ -135,7 +135,7 @@ None
         padding-top: 10px;
     }
 
-.v-nav > li > a:hover,
+    .v-nav > li > a:hover,
     .v-nav > li.current > a {
         background-color: #EEEEEE;
     }
@@ -152,7 +152,7 @@ None
         font-size: .9em;
     }
 
-    .v-nav > li ul > li:first-child {
+    .v-nav ul > li:first-child {
         border-top: 0;
     }
 
@@ -196,7 +196,8 @@ None
     }
 
     .v-nav.expandable ul > li > a:hover,
-    .v-nav.expandable ul > li.current > a {
+    .v-nav.expandable ul > li.current > a,
+    .v-nav.expandable ul > li.current_p > a    {
         background-color: #EEEEEE;
     }
 
@@ -205,7 +206,8 @@ None
         display: none;
     }
 
-    .v-nav.js-expandable li.current > ul {
+    .v-nav.js-expandable li.current > ul,
+    .v-nav.js-expandable li.current_p > ul {
         display: block;
     }
 
@@ -231,7 +233,7 @@ None
 
     .v-nav.js-expandable li > a {
         margin: 0;
-        padding-left:  34px;
+        padding-left: 34px;
     }
 
         .v-nav.js-expandable ul > li > a {
@@ -243,7 +245,6 @@ None
             .v-nav.js-expandable ul .lastExpandable-hitarea,
             .v-nav.js-expandable ul .lastCollapsable-hitarea {
                 margin-left: 34px;
-
             }
 
 
