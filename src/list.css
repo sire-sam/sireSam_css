@@ -166,13 +166,17 @@ None
         padding-top: 10px;
     }
 
-
-    .v-nav > li li > a:hover,
-        .v-nav > li li.current > a {
+        .v-nav > li li > a:hover {
             background: #F5F5F5;
         }
 
-    /** SUBNAV expandable (on :hover) **/
+        .v-nav > li li.current > a,
+        .v-nav > li li.current_p > a {
+            font-weight: bold;
+            background: #F5F5F5;
+        }
+
+/** SUBNAV expandable (on :hover) **/
     .v-nav.expandable li {
         position: relative;
     }
