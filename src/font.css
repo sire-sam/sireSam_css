@@ -1,0 +1,58 @@
+.user-content p:first-child,
+.user-content > p:first-child > a {
+    color: #616161;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: .02pc;
+}
+
+.user-content ul,
+.user-content ol{
+    margin: 0 0 15px 15px;
+}
+
+.user-content ul li {
+	line-height: 19px;
+    margin: 0 0 5px 0;
+    background: transparent url(../img/css/list/li-bg.png) left 5px no-repeat;
+	list-style:none;
+	padding-left: 20px;
+}
+
+.user-content ol li {
+    margin: 0 0 5px 0;
+    list-style: decimal inside;
+    padding-left: 0px;
+}
+
+.user-content a,
+.user-content a:link {
+    color: #009132;
+}
+
+
+.title,
+.title a {
+	color: #000000;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	padding:0;	
+}
+
+.title a {
+    margin: 0;
+}
+
+	.title a:hover {
+		text-decoration: underline;
+	}
+
+
+/* Element */
+
+.align {
+	text-align: center;
+	margin: 0 auto;
+}

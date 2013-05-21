@@ -1,0 +1,39 @@
+legend { 
+	padding: 0.5em; 
+	margin-left:1em;
+}
+
+label { 
+	display: inline-block; 
+	min-width: 100px;
+    font-size: 16px;
+}
+
+.inputtext,.fulltext{
+	background:white;
+    padding: 6px;
+    font-size: 14px;
+}
+
+fieldset {
+    padding: 0;
+    border: 0;
+}
+
+input[type=submit]{
+	margin : 5px 0;
+    padding: 5px 10px;
+}
+
+form table{
+	margin-left: 5px;
+}
+
+td {padding: 5px 0 10px 0;}
+
+td.label {padding: 0;}
+
+.stateVal{
+	color:#FCA6A6;
+	display: block;
+}

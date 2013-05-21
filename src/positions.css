@@ -1,28 +1,18 @@
-/* ------------------------------- */
-/* = ABOUT                         */
-/* -------------------------------
+/*
 
-    @name: High Productive CSS
+    @name: sireSam_css
     @author : Samuel Lesire
     @date : Aout 2012
     @version: 0.1
-    @note: Feuille regroupant les classes de positionnement sur la grille
 
-/* = Graphic values
-    Aucune mise en forme visuelle présente, cette feuille est dédiée au positionement
-*/
-/* ------------------------------- */
-/* = Summary                       */
-/* -------------------------------
+    = Summary
 
   =1 - Global class
   =2 - Grid positioning class
   =3 - Child positioning class
-*/
 
-/* ------------------------------- */
-/* =1 Global class                  */
-/* ------------------------------- */
+    =1 Global class
+    -------------- */
 .full {
 	background-color: transparent;
 	margin: 0;

@@ -1,0 +1,152 @@
+.bg-top.w16-16,
+.bg-repeat.w16-16,
+.bg-bottom.w16-16 {
+    height: 10px;
+}
+
+
+.full.bg-top {
+    background-color: transparent;
+	background-image: url(../img/css/block/full-top.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	min-height: 10px;
+}
+
+.full.bg-repeat {
+    background-color: transparent;
+	background-image: url(../img/css/block/full-repeat.png);
+	background-repeat: repeat;
+	background-position: center top;
+}
+
+.full.bg-bottom {
+    background-color: transparent;
+	background-image: url(../img/css/block/full-bottom.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	height: 10px;
+}
+
+.h-separator {
+    background-color: transparent;
+    background-image: url(../img/css/block/h-separator.png);
+    background-repeat: repeat-x;
+    background-position: left top;
+    min-height: 3px;
+}
+
+
+/**
+-- HEADER --
+**/
+#header > .container {
+    width: 1014px;
+    padding-left: 0;
+}
+
+#headline {
+    background-color: transparent;
+    background-image: url(../img/css/sprite.png);
+    background-repeat: no-repeat;
+    background-position: -3px top;
+    float: left;
+    padding: 0 20px;
+    margin-right: 10px;
+    width: 152px;
+    height: 255px;
+}
+
+    #logo {
+        display: block;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .social-account {
+        overflow: hidden;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+            .social-account > a {
+                background-color: transparent;
+                background-image: url(../img/css/sprite.png);
+                background-repeat: no-repeat;
+                background-position: 0 -252px;
+                display: inline-block;
+                width: 33px;
+                height: 33px;
+            }
+
+            .social-account > a:hover {background-position: 0 -285px; text-decoration: none;}
+
+                #contact-link {background-position: 0 -252px;} #contact-link:hover {background-position: 0 -285px;}
+                #twitter-account {background-position: -33px -252px;} #twitter-account:hover {background-position: -33px -285px;}
+                #facebook-account {background-position: -66px -252px;} #facebook-account:hover {background-position: -66px -285px;}
+                #linkedin-account {background-position: -99px -252px;} #linkedin-account:hover {background-position: -99px -285px;}
+
+/*Found top navigation styling in list.css[.h-nav] */
+
+/**
+-- CONTENT --
+**/
+
+#content > .full-repeat > .container {
+    padding-top: 25px;
+    background-color: transparent;
+    background-image: url(../img/css/block/v-separator-color.png);
+    background-repeat: repeat-y;
+    background-position: 200px top;
+}
+
+    /** leftCol **/
+
+    #leftCol {
+        margin-right:0;
+        width: 192px;
+    }
+
+    #leftCol .title,
+    #leftCol p {
+        text-align: center;
+        padding-right: 20px;
+    }
+
+    #leftCol .img {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    #leftCol p > strong {
+        display: block;
+        color: #000;
+    }
+
+    #leftCol p > .exerg {
+        display: block;
+        font-size: 12px;
+        margin-bottom: 10px;
+        line-height: 16px;
+    }
+
+        #nav-catalog > .name > a {
+            display: block;
+            color: #009132;
+            font-family: "SansusWebissimoItalic", Arial, Helvetica, sans-serif;
+            font-weight: normal;
+            margin: 0 0 15px 0;
+            font-size: 18px;
+            line-height: 23px;
+            text-align: right;
+
+        }
+
+    /** contentCol **/
+    #contentCol > .w12-16 {
+        margin: 0 auto;
+    }
+
+    #product-img {
+        margin-left: 20px;
+    }

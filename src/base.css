@@ -2,33 +2,17 @@
 /* = ABOUT                         */
 /* -------------------------------
 
-    @name: High Productive CSS
+    @name: sireSam_css
     @author : Samuel Lesire
-    @date : 09-2012
+    @date : Aout 2012
     @version: 0.1
-    @todo : Retester toutes les modifs avec IE7 & friends
     @note: Feuille regroupant un maximum de balises pour assurer en rendu similaire sur différents navigateurs
 
-/* = Graphic values
 
-_Color Code_
-Dark Grey         :       #4C4C4C        /  body{color, }H1 > h6{color}, hr{background}, fieldset{border}, a{color}, legend{color}
-
-_Font Family_
-Global          :       "Arial", Helvetica, sans-serif
-H1 -> 6         :       "Georgia", Times, sans-serif
-pre, code       ;       "Courier New", Courier, monospace;
-
-_TEXT_
-line-height     :        20px           / #TODO vérifier si l'héritage de body n'est pas suffisant (actuellement placer syur de nombreux TAG)
-
-*/
-/* ------------------------------- */
-/* = Summary                       */
-/* -------------------------------
+    = Summary
 
   =1 - Table Tags
-  =2 - Embedded content Tags @todo étendre à plus de balises
+  =2 - Embedded content Tags
   =3 - Text-level semantic Tags
   =4 - Grouping content Tags
   =5 - Section Tags
@@ -169,7 +153,6 @@ figure {
     padding: 0;
     border: 0;
     font-size: 14px;
-    line-height: 20px;
     background-color: transparent;
 }
 
@@ -211,7 +194,6 @@ dt {
     margin: 0;
     padding: 0;
     font-size: 14px;
-    line-height: 20px;
     background-color: transparent;
 }
 
@@ -297,22 +279,18 @@ h2 {
 
 h3 {
     font-size: 18px;
-    line-height: 20px;
 }
 
 h4 {
     font-size: 16px;
-    line-height: 20px;
 }
 
 h5 {
     font-size: 14px;
-    line-height: 20px;
 }
 
 h6 {
     font-size: 14px;
-    line-height: 20px;
 }
 
 
@@ -338,8 +316,7 @@ label {
     background-color: transparent;
 }
 
-input:not([type="submit"]):not([type="file"]):not([readonly]),
-input[readonly='readonly'] {
+input:not([type="submit"]) {
     margin: 0 0 10px 0;
     padding: 5px 10px;
     border: 1px solid #4C4C4C;
@@ -348,14 +325,7 @@ input[readonly='readonly'] {
     background-color: transparent;
 }
 
-input[readonly] {
-    border: 0;
-    padding-top: 6px;
-    padding-bottom: 6px;
-}
-
 input[type="submit"],
-input[type="button"],
 button {
     display: block;
     margin: 0 0 10px 0;
